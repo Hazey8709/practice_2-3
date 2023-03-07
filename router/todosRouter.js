@@ -2,7 +2,7 @@ const express = require("express");
 const todosRouter = express.Router();
 const { todoService, todoServiceId } = require("../services/todoService");
 
-//! GET-ALL
+//! GET-ALL ()
 //* http://www.localhost:4000/
 todosRouter.get("/", (req, res, next) => {
     todoService()
