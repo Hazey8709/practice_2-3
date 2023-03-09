@@ -11,7 +11,7 @@ _NPM, Express, Jest, Dotenv, Axios, Nodemon._
 
 
 ### Branch's:
-**Main**: Todo list API set-up<br>
+**Main**: *Todo list API set-up* <br>
 **Mod2-5**: *Jest testing and MOCK* <br>
 
 ### Directions:
