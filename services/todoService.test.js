@@ -1,21 +1,23 @@
-const { todoService, todoServiceId } = require("../services/pokemonServ");
+const { todoService, todoServiceId } = require("../services/todoService");
 
-describe("", () => {
-    test("", () => {
-        expect(uppercase("")).toBe("");
+jest.mock("../__mocks__/todoService");
+
+describe("Todo Service Test", () => {
+    test("User return 10 Todos", async () => {
+        const result = await todoService();
+
+        expect(result.data).toHaveLength(200);
+        expect(result.data[8].userId).toEqual(1);
+        expect(result.data[8].id).toEqual(9);
+        expect(result.data[8].title).toEqual("molestiae perspiciatis ipsa");
+        expect(result.data[8].completed).toEqual(false);
     });
 
-    test("", () => {
-        expect(lowercase("")).toBe("");
+    test("Return By ID", async () => {
+        const result = await todoServiceId(3);
+
+        expect(result.data.userId).toEqual(1);
+        expect(result.data.title).toEqual("fugiat veniam minus");
+        expect(result.data.completed).toEqual(false);
     });
 });
-
-
-
-
-// describe("Testing Basic Math", () => {
-//     test("Addition 2 num", () => {
-//         const results = operations.add(10, 10);
-//         expect(results).toBe(20);
-//     });
-// });
