@@ -4,10 +4,7 @@
 
 _NPM, Express, Jest, Dotenv, Axios, Nodemon._
 
-### Details:
-
-**(Backend Template)** <br>
-<br>
+### Details:<br>
 **Server Status**: *http://www.localhost:4000/*
 
 ### Directions:
