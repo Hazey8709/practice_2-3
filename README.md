@@ -8,6 +8,14 @@ _NPM, Express, Jest, Dotenv, Axios, Nodemon._
 
 **(Backend Template)** <br>
 <br>
-**Server Status**: *http://www.localhost:4000/*
+**Server Status**: *http://www.localhost:4000/* <br>
+**Get-ALl**: *http://www.localhost:4000/todos/* <br>
+
+
+### Branch's
+
 
 ### Directions:
+
+**Main**: <br>
+**Mod2-5**: <br>
