@@ -1,4 +1,4 @@
-const { todoService, todoServiceId } = require("../services/todoService");
+const { todoService, todoServiceId } = require("./todoService");
 jest.mock("../__mocks__/todoService");
 
 describe("Todo Service Test", () => {
