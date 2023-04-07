@@ -7,7 +7,7 @@ const { todoService, todoServiceId } = require("../services/todoService");
 todosRouter.get("/", (req, res, next) => {
     todoService()
         .then((result) => {
-            res.status(500).json(result.data);
+            res.status(200).json(result.data);
         })
         .catch((err) => {
             res.status(500).json({
